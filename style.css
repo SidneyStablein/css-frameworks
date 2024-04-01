@@ -3,6 +3,10 @@ body {
   background: #F6FCF3;
 }
 
+p {
+  color: #515151;
+}
+
 h1 {
   font-size: 64px;
   color: #515151;
@@ -15,8 +19,12 @@ h2 {
 
 h3 {
   font-size: 32px;
+  color: #515151;
 }
 
+.welcome {
+  padding-bottom: 20px;
+}
 .card-title {
   text-align: center;
   margin-bottom: 45px;
@@ -67,11 +75,13 @@ h3 {
 }
 
 .recipes {
-  margin-bottom: 70px;
-  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 60px;
 }
 
 .recipessection {
   margin-bottom: 70px;
   background-color: #E7F4E1;
+  height: 530px;
 }
